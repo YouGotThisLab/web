@@ -1,0 +1,105 @@
+{
+  "tool": "image_gen.imagegen",
+  "assets": [
+    {
+      "id": "chiang",
+      "name": "蔣萬安",
+      "prompt": "Use case: stylized-concept. Asset type: standalone pixel-art political satire game avatar for YouChuXi. Subject: Taiwanese male politician Chiang Wan-an, neatly side-parted short black hair, youthful face, white shirt and navy suit. Identity: 蔣萬安. Props: a tiny baseball and bat, a joking reference to his ceremonial opening baseball pitches. Chunky 16-bit arcade pixel art, visible square pixels, intentionally funny exaggerated open-mouth expression, head and shoulders, thick black pixel outline, 24-color palette, white jagged comic burst behind the head within a purple circular badge. Centered circular portrait occupies most of square canvas; outside badge actually transparent. Match the attached user's arcade meme references in spirit. Non-photorealistic editorial caricature, friendly ridiculous expression. No words, no logos, no party symbols, no letters, no watermarks. Clearly illustration, not a photograph. Save a local PNG for project integration and return its path.",
+      "asset": "public/assets/chiang.webp",
+      "colorEdit": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Change only the purple circular background to the candidate party color: KMT #000095, TPP #20bec5, DPP #009900. Preserve face, hair, clothing, props, white burst, pixel style and transparent exterior."
+      }
+    },
+    {
+      "id": "shen",
+      "name": "沈伯洋",
+      "prompt": "Use case: stylized-concept. Asset type: standalone pixel-art political satire game avatar for YouChuXi. Subject: Taiwanese male politician Puma Shen, recognisable curly voluminous black hair, round glasses, navy suit. Identity: 沈伯洋. Props: a tiny cartoon black bear and a magnifying glass, reference to his public civil-defence work. Chunky 16-bit arcade pixel art, visible square pixels, intentionally funny exaggerated open-mouth expression, head and shoulders, thick black pixel outline, 24-color palette, white jagged comic burst behind the head within a purple circular badge. Centered circular portrait occupies most of square canvas; outside badge actually transparent. Match the attached user's arcade meme references in spirit. Non-photorealistic editorial caricature, friendly ridiculous expression. No words, no logos, no party symbols, no letters, no watermarks. Clearly illustration, not a photograph. Save a local PNG for project integration and return its path.",
+      "asset": "public/assets/shen.webp",
+      "colorEdit": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Change only the purple circular background to the candidate party color: KMT #000095, TPP #20bec5, DPP #009900. Preserve face, hair, clothing, props, white burst, pixel style and transparent exterior."
+      }
+    },
+    {
+      "id": "miao",
+      "name": "苗博雅",
+      "prompt": "Use case: stylized-concept. Asset type: standalone pixel-art political satire game avatar for YouChuXi. Subject: Taiwanese female politician Miao Poya, androgynous appearance, short side-parted hair, thin round glasses, white shirt. Identity: 苗博雅. Props: a ridiculously huge stack of registration papers, reference to her joint candidacy registration with Lin Liang-chun. Chunky 16-bit arcade pixel art, visible square pixels, intentionally funny exaggerated open-mouth expression, head and shoulders, thick black pixel outline, 24-color palette, white jagged comic burst behind the head within a purple circular badge. Centered circular portrait occupies most of square canvas; outside badge actually transparent. Match the attached user's arcade meme references in spirit. Non-photorealistic editorial caricature, friendly ridiculous expression. No words, no logos, no party symbols, no letters, no watermarks. Clearly illustration, not a photograph. Save a local PNG for project integration and return its path.",
+      "asset": "public/assets/miao.webp"
+    },
+    {
+      "id": "lee",
+      "name": "李四川",
+      "prompt": "Use case: stylized-concept. Asset type: standalone pixel-art political satire game avatar for YouChuXi. Subject: Taiwanese male politician Lee Ssu-chuan, older man, broad friendly face, short gray-black hair, rectangular glasses, blue utility vest. Identity: 李四川. Props: a tiny road roller, reference to his engineering and road-surfacing career. Chunky 16-bit arcade pixel art, visible square pixels, intentionally funny exaggerated open-mouth expression, head and shoulders, thick black pixel outline, 24-color palette, white jagged comic burst behind the head within a purple circular badge. Centered circular portrait occupies most of square canvas; outside badge actually transparent. Match the attached user's arcade meme references in spirit. Non-photorealistic editorial caricature, friendly ridiculous expression. No words, no logos, no party symbols, no letters, no watermarks. Clearly illustration, not a photograph. Save a local PNG for project integration and return its path.",
+      "asset": "public/assets/lee.webp",
+      "colorEdit": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Change only the purple circular background to the candidate party color: KMT #000095, TPP #20bec5, DPP #009900. Preserve face, hair, clothing, props, white burst, pixel style and transparent exterior."
+      }
+    },
+    {
+      "id": "su",
+      "name": "蘇巧慧",
+      "prompt": "Use case: stylized-concept. Asset type: standalone pixel-art political satire game avatar for YouChuXi. Subject: Taiwanese female politician Su Chiao-hui, shoulder-length dark hair, round glasses, smiling, mint green blazer. Identity: 蘇巧慧. Props: a tiny microphone and children's picture book, reference to her children's story podcast. Chunky 16-bit arcade pixel art, visible square pixels, intentionally funny exaggerated open-mouth expression, head and shoulders, thick black pixel outline, 24-color palette, white jagged comic burst behind the head within a purple circular badge. Centered circular portrait occupies most of square canvas; outside badge actually transparent. Match the attached user's arcade meme references in spirit. Non-photorealistic editorial caricature, friendly ridiculous expression. No words, no logos, no party symbols, no letters, no watermarks. Clearly illustration, not a photograph. Save a local PNG for project integration and return its path.",
+      "asset": "public/assets/su.webp",
+      "colorEdit": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Change only the purple circular background to the candidate party color: KMT #000095, TPP #20bec5, DPP #009900. Preserve face, hair, clothing, props, white burst, pixel style and transparent exterior."
+      }
+    },
+    {
+      "id": "hsu",
+      "name": "許淑華",
+      "prompt": "Use case: stylized-concept. Asset type: standalone pixel-art political satire game avatar for YouChuXi. Subject: Taiwanese female politician Hsu Shu-hua of Nantou, long black hair, recognisable face, blue jacket. Identity: 許淑華. Props: an exaggerated comic superhero cape, reference to her Wonder Woman cosplay nickname. Chunky 16-bit arcade pixel art, visible square pixels, intentionally funny exaggerated open-mouth expression, head and shoulders, thick black pixel outline, 24-color palette, white jagged comic burst behind the head within a purple circular badge. Centered circular portrait occupies most of square canvas; outside badge actually transparent. Match the attached user's arcade meme references in spirit. Non-photorealistic editorial caricature, friendly ridiculous expression. No words, no logos, no party symbols, no letters, no watermarks. Clearly illustration, not a photograph. Save a local PNG for project integration and return its path.",
+      "asset": "public/assets/hsu.webp",
+      "colorEdit": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Change only the purple circular background to the candidate party color: KMT #000095, TPP #20bec5, DPP #009900. Preserve face, hair, clothing, props, white burst, pixel style and transparent exterior."
+      }
+    },
+    {
+      "id": "chen",
+      "name": "陳紫渝",
+      "prompt": "Use case: stylized-concept. Asset type: standalone circular political satire pixel game portrait for YouChuXi. Image 1 is ONLY the facial identity reference for 陳紫渝: the young smiling woman at center right waving both hands, with long brown-black hair; ignore the other people and all text. Image 2 is ONLY the target art style, composition and purple badge reference; do not reproduce that person's identity. Create a NEW portrait of 陳紫渝. Make a funny surprised open-mouth expression. Props: a giant stack of neighborhood-service forms. Match reference 2's chunky visible square pixels, dark pixel contour lines, 16-bit limited palette, white jagged comic burst inside purple circular badge. Head and shoulders portrait centered and large, no smooth vector lines or photograph. Keep a true transparent outer area outside the circle. No words, no letters, no logos, no political symbols, no watermarks. Props are clearly illustrative jokes, never a documentary photo.",
+      "asset": "public/assets/chen.webp"
+    },
+    {
+      "id": "zhou",
+      "name": "周至剛",
+      "prompt": "Use case: stylized-concept. Asset type: standalone circular political satire pixel game portrait for YouChuXi. Image 1 is ONLY the facial identity reference for 周至剛: the stocky middle-aged Taiwanese man with high curly short top haircut and shaved sides, wearing a red vest; preserve his actual hairstyle, face shape and features. Image 2 is ONLY the target art style, composition and purple badge reference; do not reproduce that person's identity. Create a NEW portrait of 周至剛. Make a funny surprised open-mouth expression. Props: a tiny friendly cartoon wild boar on his shoulder, reference to Wulai tourism mascot A-Wu. Match reference 2's chunky visible square pixels, dark pixel contour lines, 16-bit limited palette, white jagged comic burst inside purple circular badge. Head and shoulders portrait centered and large, no smooth vector lines or photograph. Keep a true transparent outer area outside the circle. No words, no letters, no logos, no political symbols, no watermarks. Props are clearly illustrative jokes, never a documentary photo.",
+      "asset": "public/assets/zhou.webp"
+    },
+    {
+      "id": "zhong",
+      "name": "鍾孟儒",
+      "prompt": "Use case: stylized-concept. Asset type: standalone circular political satire pixel game portrait for YouChuXi. Image 1 is ONLY the facial identity reference for 鍾孟儒: the Taiwanese woman with long tied-back dark brown hair, distinctive elongated face and eyes, wearing a dark utility vest; preserve her facial identity. Image 2 is ONLY the target art style, composition and purple badge reference; do not reproduce that person's identity. Create a NEW portrait of 鍾孟儒. Make a funny surprised open-mouth expression. Props: a comically long roll of job-application resumes and a tiny ringing phone. Match reference 2's chunky visible square pixels, dark pixel contour lines, 16-bit limited palette, white jagged comic burst inside purple circular badge. Head and shoulders portrait centered and large, no smooth vector lines or photograph. Keep a true transparent outer area outside the circle. No words, no letters, no logos, no political symbols, no watermarks. Props are clearly illustrative jokes, never a documentary photo.",
+      "asset": "public/assets/zhong.webp"
+    },
+    {
+      "id": "chou",
+      "name": "周佳琪",
+      "prompt": "Use case: stylized-concept. Asset type: standalone circular political satire pixel game portrait for YouChuXi. Image 1 is ONLY the facial identity reference for 周佳琪: the Taiwanese woman with chin-length brown bob, rectangular glasses and pink vest; preserve her actual face shape and bob hairstyle. Image 2 is ONLY the target art style, composition and purple badge reference; do not reproduce that person's identity. Create a NEW portrait of 周佳琪. Make a funny surprised open-mouth expression. Props: a ridiculously tiny alarm clock and a big pair of registration documents. Match reference 2's chunky visible square pixels, dark pixel contour lines, 16-bit limited palette, white jagged comic burst inside purple circular badge. Head and shoulders portrait centered and large, no smooth vector lines or photograph. Keep a true transparent outer area outside the circle. No words, no letters, no logos, no political symbols, no watermarks. Props are clearly illustrative jokes, never a documentary photo.",
+      "asset": "public/assets/chou.webp",
+      "colorEdit": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Change only the purple circular background to the candidate party color: KMT #000095, TPP #20bec5, DPP #009900. Preserve face, hair, clothing, props, white burst, pixel style and transparent exterior."
+      }
+    },
+    {
+      "id": "lin",
+      "name": "林瑞德",
+      "prompt": "Use case: stylized-concept. Asset type: standalone circular political satire pixel game portrait for YouChuXi. Image 1 is ONLY the facial identity reference for 林瑞德: the Taiwanese man with short side-parted black hair, rectangular gold-rimmed glasses and a navy suit; preserve his actual face and hairstyle. Image 2 is ONLY the target art style, composition and purple badge reference; do not reproduce that person's identity. Create a NEW portrait of 林瑞德. Make a funny surprised open-mouth expression. Props: a tiny level-one arcade badge with no text and a stack of community-service documents. Match reference 2's chunky visible square pixels, dark pixel contour lines, 16-bit limited palette, white jagged comic burst inside purple circular badge. Head and shoulders portrait centered and large, no smooth vector lines or photograph. Keep a true transparent outer area outside the circle. No words, no letters, no logos, no political symbols, no watermarks. Props are clearly illustrative jokes, never a documentary photo.",
+      "asset": "public/assets/lin.webp",
+      "colorEdit": {
+        "tool": "image_gen.imagegen",
+        "prompt": "Change only the purple circular background to the candidate party color: KMT #000095, TPP #20bec5, DPP #009900. Preserve face, hair, clothing, props, white burst, pixel style and transparent exterior."
+      }
+    },
+    {
+      "id": "luo",
+      "name": "羅方妏",
+      "prompt": "Use case: stylized-concept. Asset type: a standalone circular political satire pixel game portrait for YouChuXi. Image 1 is the identity reference for Taiwan public candidate 羅方妏 (Luo Fang-wen), the young Taiwanese woman with dark brown ponytail, blunt bangs and beige utility vest in the photo; preserve her face, bangs and hair. Image 2 is only the art-style reference, do not reproduce that man's identity. Draw Luo alone in the same chunky 16-bit arcade pixel-art style with visible square pixels, thick black contours and purple circular badge with white jagged comic burst. Head and shoulders at center, funny determined open-mouth surprised expression. She holds a miniature arcade joystick as a clearly fictional joke on being a new candidate beginning her first local election game; include a small stack of community documents. Actually transparent outside the circle. No words, no letters, no logos, no political symbols, no watermarks, no other people. Clearly an original caricature, never a documentary photo.",
+      "asset": "public/assets/luo.webp"
+    }
+  ]
+}
