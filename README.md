@@ -12,6 +12,13 @@
 
 人物全站累計出息值顯示於名字右側，所有裝置透過 WebSocket 即時更新；遊戲視窗保留個人本機分數。每次點擊固定增加 1 點，連擊只加強彩色跳字與爆發動畫，不改變得分。右側累計數字採加大型漸層立體描邊與光暈。啟用減少動態效果時，保留計分並關閉跳字動畫。
 
+## 團隊成員
+
+- k66 ([k66inthesky](https://github.com/k66inthesky))
+- Eric ([Eartha02-Faithe98](https://github.com/orgs/YouGotThisLab/people/Eartha02-Faithe98))
+- Takahiro ([TakahiroKasade](https://github.com/orgs/YouGotThisLab/people/TakahiroKasade))
+- David ([TakahiroKasade](https://github.com/orgs/YouGotThisLab/people/TakahiroKasade))
+
 ## 開發
 
 需要 Node.js 20.19+ 或 22.12+。
