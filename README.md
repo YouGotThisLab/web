@@ -2,7 +2,13 @@
 
 2026 年 11 月 28 日台灣九合一地方選舉的像素迷因遊樂場。
 
+「讓你的候選人有出息」 by 王世堅沒有說過。 快來幫你支持的候選人衝高票數吧！！！
+
 [官網立即玩 ↗](https://youchuxi.k66inthesky.workers.dev/) · [觀看示範影片 ▶](https://youtu.be/VZSrQtIqvQw)
+
+[![有出息官網示意圖：臺北市蔣萬安與沈伯洋、點擊加分及頒獎台](docs/images/youchuxi-overview.jpg)](https://youchuxi.k66inthesky.workers.dev/)
+
+*新版官網風格示意圖：點人物，每次 ＋1 有出息；頒獎台為遊戲排名，非投票或民調，實際名次以官網即時數據為準。*
 
 [![有出息 YouChuXi 示範影片，點擊前往 YouTube 播放](https://i.ytimg.com/vi/VZSrQtIqvQw/hqdefault.jpg)](https://youtu.be/VZSrQtIqvQw)
 
