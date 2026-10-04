@@ -1,0 +1,76 @@
+.intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 380px) 180px;
+  gap: 24px;
+  align-items: center;
+}
+.intro-spokesperson {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+.intro-spokesperson .intro-portrait {
+  display: block;
+  width: 140px;
+  height: 170px;
+  flex: 0 0 140px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  filter: drop-shadow(3px 3px 0 #201b1926);
+}
+.intro-slogan {
+  min-width: 0;
+  padding: 14px;
+  border: 2px solid #241b1a;
+  border-radius: 12px;
+  background: #fffaf3;
+  box-shadow: 3px 3px 0 #ffdf24;
+}
+.intro-slogan > strong {
+  display: block;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.intro-slogan > span {
+  display: block;
+  margin-top: 6px;
+  font-size: 12px;
+  color: #775a56;
+}
+.intro .intro-slogan p {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #371f1d;
+}
+.intro .election-stamp {
+  min-width: 0;
+  width: 100%;
+}
+@media (max-width: 1100px) {
+  .intro {
+    grid-template-columns: minmax(0, 1fr) 180px;
+  }
+  .intro > div:first-child {
+    grid-column: 1 / -1;
+  }
+}
+@media (max-width: 600px) {
+  .intro {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+  }
+  .intro-spokesperson {
+    justify-content: center;
+  }
+  .intro-spokesperson .intro-portrait {
+    width: 110px;
+    height: 140px;
+    flex-basis: 110px;
+  }
+  .intro .election-stamp {
+    width: min(240px, 100%);
+    justify-self: center;
+  }
+}
