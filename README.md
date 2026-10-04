@@ -8,7 +8,7 @@
 
 [![有出息官網示意圖：臺北市蔣萬安與沈伯洋、點擊加分及頒獎台](docs/images/youchuxi-overview.jpg)](https://youchuxi.k66inthesky.workers.dev/)
 
-*新版官網風格示意圖：點人物，每次 ＋1 有出息；頒獎台為遊戲排名，非投票或民調，實際名次以官網即時數據為準。*
+*新版官網風格示意圖：點人物，每次 ＋1 有出息；兩位候選人並列第一、同等呈現，維持平台政治中立。此圖非實際排名、投票或民調。*
 
 [![有出息 YouChuXi 示範影片，點擊前往 YouTube 播放](https://i.ytimg.com/vi/VZSrQtIqvQw/hqdefault.jpg)](https://youtu.be/VZSrQtIqvQw)
 
