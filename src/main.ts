@@ -1,4 +1,5 @@
 import "./style.css";
+import { mountDisclaimer, isDisclaimerConfirmed } from "./disclaimer";
 import { connectScores } from "./sync";
 import { geoMercator, geoPath } from "d3-geo";
 import { merge } from "topojson-client";
@@ -36,7 +37,7 @@ backgroundMusic.loop = true;
 backgroundMusic.preload = "auto";
 backgroundMusic.volume = 0.35;
 function startBackgroundMusic() {
-  if (sound && backgroundMusic.paused) {
+  if (isDisclaimerConfirmed() && sound && backgroundMusic.paused) {
     // Autoplay may be blocked until the first user interaction.
     void backgroundMusic.play().catch(() => {});
   }
@@ -81,6 +82,8 @@ app.innerHTML = `
 <footer><span>有出息 YouChuXi <span class="footer-x">×</span> 台灣迷因，認真玩。</span><span>首批精選人物 · 資料查證 2026.10.04 · 本機計分＋全站即時同步</span></footer></main>
 <dialog id="play-dialog" class="play-dialog"><button class="dialog-close" aria-label="關閉人物">${icon("close")}</button><div id="play-content"></div></dialog>
 <dialog id="about-dialog" class="about-dialog"><button class="dialog-close" aria-label="關閉說明">${icon("close")}</button><span class="eyebrow">HOW TO YOUCHUXI</span><h2>一起點出有出息。</h2><p>點地圖選縣市，再點人物開啟遊戲。點人物大頭、按空白鍵或 Enter，就能累積你的出息值。每次點擊固定增加 1 點，快速連擊會出現更華麗的跳字特效，得分一樣是 +1。背景音樂預設開啟，可按右上角切換 OFF。</p><h3>人物與新聞</h3><p>只收錄九種地方公職的 2026 參選人物。這是首批精選名單，並非全體候選人名冊；灰色只代表本站尚未收錄。山地原住民區代表以選委會正式登記資料核對，已收錄和平區羅方妏。</p><p>參選登記、政黨提名與參選報導會分別標示；最後資格與完整名單以選委會公告為準。每張人物卡附資料來源。綽號分「公開稱呼」與「本站創作」，圖片和梗句為原創像素諷刺插畫，不是新聞現場照片或本人發言。</p><h3>九種地方公職</h3><p>${offices.map((o) => o.name).join("、")}。區民代表限直轄市山地原住民區，不含一般行政區長。</p><h3>你的出息值</h3><p>你的分數儲存在此瀏覽器；全站分數由伺服器獨立計分並即時同步至所有裝置。清除瀏覽器資料不會清除全站分數。離線可繼續玩，本頁保留最近 15 次待同步點擊，關閉頁面會丟失待同步點擊。這是遊戲數據，不是投票或民調。</p><a href="https://info.cec.gov.tw/" target="_blank" rel="noopener noreferrer">中央選舉委員會 · 2026 投票資訊 ↗</a><p class="small-note">地圖：g0v/twgeojson，CC0；2010 邊界合併至現行縣市，離島以獨立按鈕顯示。</p></dialog>`;
+
+mountDisclaimer(app);
 
 const mapSvg = document.querySelector<SVGSVGElement>("#taiwan-map")!;
 const topology = topologyData as any;
