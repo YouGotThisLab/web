@@ -410,7 +410,7 @@ function closeDialog(dialog: HTMLDialogElement) {
     lastTrigger?.focus();
   }
 }
-document.querySelectorAll<HTMLDialogElement>("dialog").forEach((dialog) => {
+document.querySelectorAll<HTMLDialogElement>("#play-dialog, #about-dialog").forEach((dialog) => {
   dialog
     .querySelector(".dialog-close")!
     .addEventListener("click", () => closeDialog(dialog));
